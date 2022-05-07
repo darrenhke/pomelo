@@ -1,0 +1,25 @@
+{
+  "name": "pomelo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx hardhat compile && npx hardhat node",
+    "deploy": "npx hardhat run --network localhost scripts/deploy.js && npx hardhat console --network localhost"
+  },
+  "author": "Darren Ho",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/hardhat-upgrades": "^1.17.0",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.5",
+    "hardhat": "^2.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
