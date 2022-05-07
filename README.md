@@ -2,6 +2,8 @@
 
 Above assignment uses hardhat framework to develop smart contract with the following functionalities
 
+Functions were built base off openzeppelin community-vetted code.
+
 1. Create a token that has mint, burn & freeze functionality
 2. Only owner of contract should be able to mint, burn & freeze
 3. Verify contract on Etherscan
